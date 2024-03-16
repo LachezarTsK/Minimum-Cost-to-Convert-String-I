@@ -39,7 +39,7 @@ public:
 
 private:
     long long findMinCostToConvertSourceToTarget(string_view source, string_view target) {
-        long minCostToConvertSourceToTarget = 0;
+        long long minCostToConvertSourceToTarget = 0;
 
         for (int i = 0; i < source.length(); ++i) {
             char sourceLetter = source[i];
